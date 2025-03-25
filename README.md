@@ -4,8 +4,7 @@
 
 **Life Expectancy Male**:  Average number of years a male can expect to live, based on similar factors as female life expectancy. <br/>
 
-**Temperature Change**:  This column represents the annual surface temperature change. The temperature change is generally relative to a baseline to show how much the temperature has changed over time.
-The positive values indicate warming, while negative values indicate cooling. For example, a value of "0.736" means a warming of 0.736°C, and a value of "-0.100" means a cooling of 0.100°C, measured in degrees Celsius and reflects global or regional shifts in climate over time. <br/>
+(should add different datasets..)
 
 
 
