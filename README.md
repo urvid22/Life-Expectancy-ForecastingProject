@@ -42,6 +42,7 @@ This project explores, analyzes, and forecasts global **life expectancy** data b
 - Source: Cleaned from World Bank life expectancy datasets (separated by Male and Female)
 - Shape: ~17,000 rows per gender, covering 200+ countries over 60+ years
 - Format: Long-format with columns for Country, Country Code, Year, and Life Expectancy
+
  
 *Links to dataset*: <br/>
 
