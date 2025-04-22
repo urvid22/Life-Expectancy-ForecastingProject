@@ -1,42 +1,32 @@
 # 📊 Life Expectancy Forecasting Project
 
 ## 🔍 Overview
-This project explores, analyzes, and forecasts global **life expectancy** data by gender from **1960 to 2021**. It combines **exploratory data analysis**, **supervised machine learning** (Random Forest), and **statistical time series forecasting** (ARIMA) to uncover trends, gender gaps, and generate predictions for future years.
-
-## 🚀 Project Objectives
-- Analyze trends in male vs female life expectancy across countries and decades
-- Identify top-performing and underperforming countries
-- Predict future life expectancy using:
-  - **Random Forest Regressor** (Supervised ML)
-  - **ARIMA** (Univariate time series)
+This project analyzes global life expectancy trends from 1960–2022, focusing on gender-based differences and country-level insights. It combines Python for data wrangling and machine learning, MySQL for structured data storage, and Power BI for interactive dashboarding.
 
 ## 📌 Key Techniques Used
-
-### ✅ Exploratory Data Analysis (EDA)
-- Trend analysis over time
-- Top 20 countries by gender
-- Gender gap visualization
-- Correlation heatmaps
-
-### ✅ Supervised Machine Learning
+###Exploratory Data Analysis (EDA)
+- Trend analysis, gender gap visuals, top countries, and correlation heatmaps
+###Supervised Machine Learning
 - **Random Forest Regression**
-- Target: Life Expectancy
-- Features: Year, Country Code (encoded), Male/Female Life Expectancy
-- Evaluation:
-  - Female MAE: ~1.01, R²: 0.98
-  - Male MAE: ~0.91, R²: 0.98
-- Visualized predicted vs actual life expectancy
+-  (R² ≈ 0.98, MAE ~1.0) to predict life expectancy by gender and year
+###Time Series Forecasting
+- ARIMA models for 5–10 year forecasts by country, including top and bottom gender gap nations
+## 📈 Output Visuals
+- Predicted vs actual plots, country-wise life expectancy trends, gender gap charts, and global ranking bars
 
-### ✅ Time Series Forecasting
-- **ARIMA** modeling for country-specific prediction
-- Forecasted 5–10 years of female and male life expectancy
-- Country-wise line plots with future trend projections for top most and last gender gap countries
+### 🗃️ MySQL (Database Storage)
+- Created a relational database `life_expectancy_db` using SQLAlchemy
+- Stored cleaned, merged, and modeled outputs as a table
+- Configured user access and permissions for secure connectivity from BI tools
 
-## 📈 Sample Output Visuals
-- Top 20 countries by life expectancy (bar and line plots)
-- Gender gap by country
-- Random Forest: Predicted vs Actual plot
-- ARIMA: Country-wise 10-year forecast
+### 📊 Power BI (Visualization & Insights)
+- Connected directly to MySQL for live data visualization
+- Built a multi-page interactive dashboard with:
+  - **Scatter plot** of male vs female life expectancy by country
+  - **Stacked area chart** showing trends over time
+  - **Bar chart** for Top 10 countries with highest gender gap
+  - **Treemap and KPI card** to highlight average gender gap by year
+- Enabled filters for Year and Country to explore data dynamically
 
 ## 🗂️ Dataset
 - Source: Cleaned from World Bank life expectancy datasets (separated by Male and Female)
