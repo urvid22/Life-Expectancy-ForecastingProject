@@ -4,12 +4,12 @@
 This project analyzes global life expectancy trends from 1960–2022, focusing on gender-based differences and country-level insights. It combines Python for data wrangling and machine learning, MySQL for structured data storage, and Power BI for interactive dashboarding.
 
 ## 📌 Key Techniques Used
-###Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 - Trend analysis, gender gap visuals, top countries, and correlation heatmaps
-###Supervised Machine Learning
+### Supervised Machine Learning
 - **Random Forest Regression**
 -  (R² ≈ 0.98, MAE ~1.0) to predict life expectancy by gender and year
-###Time Series Forecasting
+### Time Series Forecasting
 - ARIMA models for 5–10 year forecasts by country, including top and bottom gender gap nations
 ## 📈 Output Visuals
 - Predicted vs actual plots, country-wise life expectancy trends, gender gap charts, and global ranking bars
