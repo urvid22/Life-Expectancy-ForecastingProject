@@ -16,7 +16,7 @@ This project analyzes global life expectancy trends from 1960–2022, focusing o
 
 ### 🗃️ MySQL (Database Storage)
 - Created a relational database `life_expectancy_db` using SQLAlchemy
-- Stored cleaned, merged, and modeled outputs as a table
+- Stored modeled outputs as a table
 - Configured user access and permissions for secure connectivity from BI tools
 
 ### 📊 Power BI (Visualization & Insights)
